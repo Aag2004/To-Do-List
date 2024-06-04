@@ -1,0 +1,107 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add some spacing and a shadow to the form */
+form {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the input field with some padding and a rounded border */
+input {
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+}
+
+/* Style the button with some padding and a rounded border */
+button {
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+}
+
+/* Add some spacing and a shadow to the task list */
+ul {
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the task items with some padding and a rounded border */
+li {
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    justify-content:center;
+}
+/* Style the edit and delete buttons */
+/* button.edit-btn,
+button.delete-btn {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+*/
+/* Style the edit input field */
+/*input.edit-input {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+} */
+
+.li{
+    border-radius: 55px;
+    /* width: 20px; */
+    flex: content;
+}
+
+.todo-item {
+    padding: 10px;
+    border-bottom: 1px solid #9b57c3;
+    background-color: #b08bcf;
+    border-radius: 20px;
+    font-weight: 600;
+    box-shadow: #9b57c3;
+    padding-left: 20px;
+    margin-bottom: 4px;
+    display: flex;
+    text-align: left;
+    justify-content:space-between;
+    /* text-align: right; */
+}
+
+/* .delete-btn{
+    background-color: #6e0883;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    width: 60px;
+    height: 36px;
+    box-shadow: #d5a9ed;
+    margin-left: 55rem;
+    margin-right: 4px;
+} */
+.edit-btn,.delete-btn{
+    background-color: #6e0883;
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    width: 60px;
+    height: 36px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.delete-btn:hover,
+.edit-btn:hover {
+    background-color: #201525;
+}
+
+.edit-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1d1049;
+}
+
+.centered-list li {
+    margin: 5px 0;
+}
